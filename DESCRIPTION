@@ -8,7 +8,7 @@ Maintainer: Yi Yang <yiyang@umn.edu>
 Depends: Matrix
 Description: We implement a cocktail algorithm, a good mixture of coordinate decent, the majorization-minimization principle and the strong rule, for computing the solution paths of the elastic net penalized Cox's proportional hazards model.
 License: GPL-2
-URL: http://www.stat.umn.edu/~yi/cocktail
-Packaged: 2011-12-14 02:53:16 UTC; emeryyi
+URL: http://code.google.com/p/cocktail/
+Packaged: 2011-12-14 02:53:16 UTC; yiyang
 Repository: CRAN
 Date/Publication: 2011-12-13 08:00:50

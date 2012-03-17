@@ -92,7 +92,7 @@ Maintainer: Yi Yang  <yiyang@umn.edu>}
 \references{
 Yi Yang. \dQuote{Computational Algorithms for High Dimensional Problems}. Ph.D. Thesis, School of Statistics, University of Minnesota.
 
-\url{http://www.stat.umn.edu/~yi/cocktail}}
+\url{http://code.google.com/p/cocktail/}}
 
 
 \seealso{\code{plot.cocktail}}

@@ -11,7 +11,7 @@ Version: 	\tab 1.0.0\cr
 Date: 		\tab 2011-12-13\cr
 Depends: 	\tab Matrix\cr
 License: 	\tab GPL (version 2)\cr
-URL: 		\tab http://www.stat.umn.edu/~yi/cocktail\cr
+URL: 		\tab http://code.google.com/p/cocktail/\cr
 }
 }
 
@@ -20,7 +20,7 @@ Maintainer: Yi Yang  <yiyang@umn.edu>}
 \references{
 Yi Yang. \dQuote{Computational Algorithms for High Dimensional Problems}. Ph.D. Thesis, School of Statistics, University of Minnesota.
 
-\url{http://www.stat.umn.edu/~yi/cocktail}}
+\url{http://code.google.com/p/cocktail/}}
 
 \examples{
 data(FHT)
