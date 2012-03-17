@@ -1,0 +1,9 @@
+useDynLib("cocktail")
+
+import("Matrix")
+
+export(cocktail,predict.cocktail,KKTcheck)
+S3method("print","cocktail")
+S3method("plot","cocktail")
+S3method("predict","cocktail")
+
