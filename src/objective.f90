@@ -2,7 +2,7 @@
 ! sum L' 
 ! output: L'
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-      subroutine objective(no,ni,n_s,i_s,idx,x,f,e,irs,r,nlam,a)
+      subroutine objective(no,ni,n_s,i_s,idx,x,f,e,irs,r)
       IMPLICIT NONE
       integer :: no
       integer :: ni
@@ -12,8 +12,6 @@
       integer :: j1
       integer :: j2
       integer :: k
-      integer :: nlam
-      double precision :: a(ni,nlam)
       double precision :: x(no,ni)
       double precision :: f(no)                                       
       double precision :: e(no)                                       

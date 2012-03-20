@@ -36,7 +36,7 @@
       f=matmul(x,a)
       e=exp(sign(min(abs(f),fmax),f))                    
       do lam=1,nlam
-          call objective(no,ni,n_s,i_s,idx,x,f(:,lam),e(:,lam),irs,r,nlam,a)
+          call objective(no,ni,n_s,i_s,idx,x,f(:,lam),e(:,lam),irs,r)
           loss(lam) = r                                                         
       enddo
       return

@@ -10,7 +10,7 @@ KKTcheck=function(y,x,d,alpha,p,lam,thr,beta){
 			{
 				AA <- fj[j,l] + lam[l]*(1-alpha)*B[j,l] + alpha*lam[l]*sign(B[j,l]) 
 				if(abs(AA) > thr){
-					# cat("violate b != 0", AA, "\n")
+					cat("violate b != 0", AA, "\n")
 					ctr = ctr + 1
 					
 				}
@@ -18,7 +18,7 @@ KKTcheck=function(y,x,d,alpha,p,lam,thr,beta){
 			else{
 				BB = abs(fj[j,l]) - alpha*lam[l]
 				if(BB > thr){
-					# cat("violate b = 0", BB, "\n")
+					cat("violate b = 0", BB, "\n")
 					ctr = ctr + 1
 				} 
 				}
