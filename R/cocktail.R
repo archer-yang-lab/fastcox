@@ -6,13 +6,28 @@ standardize=TRUE,eps=1e-6,maxit=1e4)
 	#################################################################################	
 	#data setup
 	this.call=match.call()
+	
+	if(!is.matrix(x))
+    stop("x has to be a matrix")
+    
+    if(any(is.na(x)))
+    stop("Missing values in x not allowed!")
+    
 	y=drop(y)
 	np=dim(x)
 	nobs=as.integer(np[1])
 	nvars=as.integer(np[2])
 	vnames=colnames(x)
+	
   	if(is.null(vnames))vnames=paste("V",seq(nvars),sep="")
     if(length(y)!=nobs) stop("x and y have different number of observations")
+    if(length(d)!=nobs) stop("x and d have different number of observations")
+
+	if(!is.numeric(y)) 
+	stop("The response y must be numeric. Factors must be converted to numeric")
+
+	if(!is.numeric(d)) 
+	stop("The response d must be numeric. Factors must be converted to numeric")
 	#################################################################################	
 	#parameter setup
 	if(length(pf)!=nvars) stop("The size of penalty factor must be same as the number of input variables")

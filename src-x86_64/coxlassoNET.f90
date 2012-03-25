@@ -53,7 +53,7 @@ SUBROUTINE coxlassoNET(rs,nrs,alpha,nobs,nvars,x,jd,pf,dfmax,pmax,nlam,flmin,ula
         RETURN
     ENDIF
     pf=max(0.0,pf)                                  
-    pf=pf*nvars/sum(pf) 
+    pf=pf*nvars/sum(pf)
     CALL standardcox(nobs,nvars,x,ju,isd,xmean,xnorm) 
     CALL coxlassoNETpath(rs,nrs,alpha,nobs,nvars,x,ju,pf,dfmax,pmax,nlam,flmin,ulam,&
                     eps,maxit,nalam,beta,ibeta,nbeta,alam,npass,jerr)                                 

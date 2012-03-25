@@ -30,7 +30,7 @@ plot.cocktail=function(x, xvar=c("norm","lambda"),color=FALSE,label=FALSE,...)
 	else matplot(index,t(beta),lty=1,xlab=xlab,ylab=ylab,...)
 	atdf=pretty(index)
 	prettydf=trunc(approx(x=index,y=df,xout=atdf,rule=2)$y)
-	axis(3,at=atdf,label=prettydf,tcl=NA)
+	# axis(3,at=atdf,label=prettydf,tcl=NA)
 	if(label){
 	nnz=length(which)
 	xpos=max(index)
