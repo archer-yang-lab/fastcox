@@ -8,7 +8,7 @@
 Package:	\tab cocktail\cr
 Type: 		\tab Package\cr
 Version: 	\tab 1.0.0\cr
-Date: 		\tab 2011-12-13\cr
+Date: 		\tab 2012-03-26\cr
 Depends: 	\tab Matrix\cr
 License: 	\tab GPL (version 2)\cr
 URL: 		\tab http://code.google.com/p/cocktail/\cr
@@ -18,8 +18,8 @@ URL: 		\tab http://code.google.com/p/cocktail/\cr
 \author{Yi Yang and Hui Zou\cr
 Maintainer: Yi Yang  <yiyang@umn.edu>}
 \references{
-Yi Yang. \dQuote{Computational Algorithms for High Dimensional Problems}. Ph.D. Thesis, School of Statistics, University of Minnesota.
-
+Yang, Y. and Zou, H. (2012) 
+\emph{A Cocktail Algorithm for Solving The Elastic Net Penalized Cox's Regression in High Dimensions Statistics and Its Interface.}\cr
 \url{http://code.google.com/p/cocktail/}}
 
 \examples{

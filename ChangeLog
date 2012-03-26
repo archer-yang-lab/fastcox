@@ -1,18 +1,7 @@
-=======================================================================
+CHANGELOG - Record of Changes for gcdnet
+Please find below the list of the various changes and improvements that were part of each successive update.
 
-Planned future changes
 
-1. Add user-defined penalty.
 
-=======================================================================
-
-Thanks to
-
-Teng Zhang for helping me get cocktail into CRAN.
-
-Charlie Geyer for many suggestions and contributions.
-
-Patrick Zimmerman for suggesting improvements and finding bugs.
-
-Qing Mai for finding bugs.
-
+1.0.0:
+* Initial release.

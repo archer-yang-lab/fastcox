@@ -35,7 +35,7 @@ cocktail(x,y,d,
 		\code{lambda} overrides this. It is better to supply
 		a decreasing sequence of \code{lambda} values than a single (small) value, if not, the program will sort user-defined \code{lambda} sequence in decreasing order automatically.}
 
-		\item{alpha}{The elasticnet mixing parameter, with \eqn{0<\alpha\le 1}. See details.}
+		\item{alpha}{The elasticnet mixing parameter, with \eqn{0 < \alpha <= 1}. See details.}
 
 		\item{pf}{separate penalty weights can be applied to each coefficient of \eqn{\beta}{beta} to allow
 		differential shrinkage. Can be 0 for some variables, which implies
@@ -90,8 +90,8 @@ An object with S3 class \code{\link{cocktail}}.
 \author{Yi Yang and Hui Zou\cr
 Maintainer: Yi Yang  <yiyang@umn.edu>}
 \references{
-Yi Yang. \dQuote{Computational Algorithms for High Dimensional Problems}. Ph.D. Thesis, School of Statistics, University of Minnesota.
-
+Yang, Y. and Zou, H. (2012) 
+\emph{A Cocktail Algorithm for Solving The Elastic Net Penalized Cox's Regression in High Dimensions Statistics and Its Interface.}\cr
 \url{http://code.google.com/p/cocktail/}}
 
 

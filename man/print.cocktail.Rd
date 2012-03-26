@@ -2,7 +2,7 @@
 \alias{print.cocktail}
 \title{print a cocktail object}
 \description{
-Print a summary of the cocktail path at each step along the path.
+Print a summary of the cocktail path at each step along the path. This function is modified based on the \code{print} function from the \code{glmnet} package.
 }
 \usage{
 \method{print}{cocktail}(x, digits = max(3, getOption("digits") - 3), ...)
@@ -20,6 +20,24 @@ a two-column matrix, the first columns is the number of nonzero coefficients and
 
 \author{Yi Yang and Hui Zou\cr
 Maintainer: Yi Yang  <yiyang@umn.edu>}
+
+\references{
+Yang, Y. and Zou, H. (2012) 
+\emph{A Cocktail Algorithm for Solving The Elastic Net Penalized Cox's Regression in High Dimensions Statistics and Its Interface.}\cr
+\url{http://code.google.com/p/cocktail/}\cr
+
+Friedman, J., Hastie, T. and Tibshirani, R. (2008)
+  \emph{Regularization Paths for Generalized Linear Models via Coordinate
+    Descent},   \url{http://www.stanford.edu/~hastie/Papers/glmnet.pdf}\cr
+  \emph{Journal of Statistical Software, Vol. 33(1), 1-22 Feb 2010}\cr
+  \url{http://www.jstatsoft.org/v33/i01/}\cr\cr
+  Simon, N., Friedman, J., Hastie, T., Tibshirani, R. (2011)
+  \emph{Regularization Paths for Cox's Proportional Hazards Model via
+    Coordinate Descent, Journal of Statistical Software, Vol. 39(5)
+    1-13}\cr
+  \url{http://www.jstatsoft.org/v39/i05/}
+
+}
 
 \examples{
 data(FHT)

@@ -1,15 +1,10 @@
 \name{predict.cocktail}
 \alias{predict.cocktail}
-\alias{predict.lspath}
-\alias{predict.logitpath}
 \alias{predict.survpath}
-\alias{predict.hsvmpath}
-\alias{predict.hregpath}
-\alias{predict.sqsvmpath}
 \title{make predictions from a "cocktail" object.}
 
 \description{
-Similar to other predict methods, this functions predicts fitted values, link function and more from a fitted \code{\link{cocktail}} object.
+Similar to other predict methods, this functions predicts fitted values, link function and more from a fitted \code{\link{cocktail}} object. This function is modified based on the \code{predict} function from the \code{glmnet} package.
 }
 
 \usage{
@@ -39,9 +34,23 @@ Similar to other predict methods, this functions predicts fitted values, link fu
 \author{Yi Yang and Hui Zou\cr
 Maintainer: Yi Yang  <yiyang@umn.edu>}
 \references{
-Yi Yang. \dQuote{Computational Algorithms for High Dimensional Problems}. Ph.D. Thesis, School of Statistics, University of Minnesota.
+Yang, Y. and Zou, H. (2012) 
+\emph{A Cocktail Algorithm for Solving The Elastic Net Penalized Cox's Regression in High Dimensions Statistics and Its Interface.}\cr
+\url{http://code.google.com/p/cocktail/}\cr
 
-\url{http://code.google.com/p/cocktail/}}
+Friedman, J., Hastie, T. and Tibshirani, R. (2008)
+  \emph{Regularization Paths for Generalized Linear Models via Coordinate
+    Descent},   \url{http://www.stanford.edu/~hastie/Papers/glmnet.pdf}\cr
+  \emph{Journal of Statistical Software, Vol. 33(1), 1-22 Feb 2010}\cr
+  \url{http://www.jstatsoft.org/v33/i01/}\cr\cr
+  Simon, N., Friedman, J., Hastie, T., Tibshirani, R. (2011)
+  \emph{Regularization Paths for Cox's Proportional Hazards Model via
+    Coordinate Descent, Journal of Statistical Software, Vol. 39(5)
+    1-13}\cr
+  \url{http://www.jstatsoft.org/v39/i05/}
+
+}
+
 
 \seealso{\code{\link{coef}} method}
 \examples{

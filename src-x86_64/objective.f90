@@ -1,6 +1,6 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-! sum L' 
-! output: L'
+! sum loglik
+! output: loglik
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
       subroutine objective(no,ni,n_s,i_s,idx,x,f,e,irs,r)
       IMPLICIT NONE

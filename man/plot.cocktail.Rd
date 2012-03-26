@@ -3,7 +3,7 @@
 \title{Plot coefficients from a "cocktail" object}
 \description{
 Produces a coefficient profile plot of the coefficient paths for a
-fitted \code{\link{cocktail}} object.
+fitted \code{\link{cocktail}} object. This function is modified based on the \code{plot} function from the \code{glmnet} package.
 }
 \usage{
 \method{plot}{cocktail}(x, xvar = c("norm", "lambda"), color = FALSE, label = FALSE, ...)
@@ -23,9 +23,22 @@ A coefficient profile plot is produced.
 \author{Yi Yang and Hui Zou\cr
 Maintainer: Yi Yang  <yiyang@umn.edu>}
 \references{
-Yi Yang. \dQuote{Computational Algorithms for High Dimensional Problems}. Ph.D. Thesis, School of Statistics, University of Minnesota.
+Yang, Y. and Zou, H. (2012) 
+\emph{A Cocktail Algorithm for Solving The Elastic Net Penalized Cox's Regression in High Dimensions Statistics and Its Interface.}\cr
+\url{http://code.google.com/p/cocktail/}\cr
 
-\url{http://code.google.com/p/cocktail/}}
+Friedman, J., Hastie, T. and Tibshirani, R. (2008)
+  \emph{Regularization Paths for Generalized Linear Models via Coordinate
+    Descent},   \url{http://www.stanford.edu/~hastie/Papers/glmnet.pdf}\cr
+  \emph{Journal of Statistical Software, Vol. 33(1), 1-22 Feb 2010}\cr
+  \url{http://www.jstatsoft.org/v33/i01/}\cr\cr
+  Simon, N., Friedman, J., Hastie, T., Tibshirani, R. (2011)
+  \emph{Regularization Paths for Cox's Proportional Hazards Model via
+    Coordinate Descent, Journal of Statistical Software, Vol. 39(5)
+    1-13}\cr
+  \url{http://www.jstatsoft.org/v39/i05/}
+
+}
 
 \examples{
 data(FHT)
