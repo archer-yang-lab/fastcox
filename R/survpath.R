@@ -19,7 +19,7 @@ survpath <- function(x, y, d, nlam, flmin, ulam, isd, eps, dfmax,
     fit <- .Fortran("coxlassoNET", rs, nrs, alpha, nobs, nvars, as.double(x), 
         jd, pf, dfmax, pmax, nlam, flmin, ulam, eps, isd, maxit, nalam = integer(1), 
         beta = double(pmax * nlam), ibeta = integer(pmax), nbeta = integer(nlam), 
-        alam = double(nlam), npass = integer(1), jerr = integer(1), PACKAGE = "cocktail")
+        alam = double(nlam), npass = integer(1), jerr = integer(1), PACKAGE = "fastcox")
     #################################################################################
     #
     #   output
