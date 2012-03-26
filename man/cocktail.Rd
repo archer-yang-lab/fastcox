@@ -19,7 +19,7 @@ cocktail(x,y,d,
 \arguments{
 		\item{x}{matrix of predictors, of dimension \eqn{N \times p}{N*p}; each row is an observation vector.}
 
-		\item{y}{a survival time for Cox models.}
+		\item{y}{a survival time for Cox models. Currently tied failure times are not supported.}
 
 		\item{d}{censor status with 1 if died and 0 if right censored.}
 
