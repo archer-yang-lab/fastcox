@@ -72,7 +72,7 @@
 ! 
 ! REFERENCES:
 !    Yang, Y. and Zou, H. (2012). A Cocktail Algorithm for Solving 
-!    The Elastic Net Penalized Cox’s Regression in High Dimensions
+!    The Elastic Net Penalized Cox's Regression in High Dimensions
 !    Statistics and Its Interface. To be accepted after minor 
 !    revision. 
 
