@@ -1,7 +1,7 @@
 Package: fastcox
 Title:  Lasso and elastic-net penalized Cox's
         regression in high dimensions models using the cocktail algorithm
-Version: 1.0.1
+Version: 1.1.0
 Date: 2011-12-13
 Author: Yi Yang <yiyang@umn.edu>, Hui Zou <hzou@stat.umn.edu>
 Maintainer: Yi Yang <yiyang@umn.edu>
