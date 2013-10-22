@@ -63,7 +63,7 @@ linear models via coordinate descent," \emph{Journal of Statistical Software, 33
 \seealso{\code{\link{cocktail}}, \code{\link{plot.cv.cocktail}}.}
 \examples{
 data(FHT)
-cv1<-cv.cocktail(x=FHT$x,y=FHT$y,d=FHT$status,alpha=0.5,nfolds=3)
+cv1<-cv.cocktail(x=FHT$x[,1:10],y=FHT$y,d=FHT$status,alpha=0.5,nfolds=3)
 cv1
 plot(cv1)
 }
