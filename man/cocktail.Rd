@@ -14,7 +14,7 @@ cocktail(x,y,d,
 	pmax=min(dfmax*1.2,nvars),
 	standardize=TRUE,
 	eps=1e-6,
-	maxit=1e4)
+	maxit=3e4)
 }
 \arguments{
 		\item{x}{matrix of predictors, of dimension \eqn{N \times p}{N*p}; each row is an observation vector.}
