@@ -79,7 +79,7 @@ For computing speed reason, if models are not converging or running slow, consid
 \bold{Question: }\dQuote{\emph{I am not sure how are we optimizing alpha. I can get optimal lambda for each value of alpha. But how do I select optimum alpha?}} 
 
 \bold{Answer: } \code{cv.cocktail} only finds the optimal lambda given alpha fixed. So to
-chose an good alpha you need to fit cv on a grid of alpha, say (0.1,0.3, 0.6, 0.9, 1) and choose the one corresponds to the lowest predicted deviance.
+chose a good alpha you need to fit CV on a grid of alpha, say (0.1,0.3, 0.6, 0.9, 1) and let cv.cocktail choose the optimal lambda for each alpha, then you choose the (alpha, lambda) pair that corresponds to the lowest predicted deviance.
 
 \bold{Question: }\dQuote{\emph{I understand your are referring to minimizing the quantity \code{cv.cocktail\$cvm}, the mean 'cross-validated error' to optimize alpha and lambda as you did in your implementation. However, I don't know what the equation of this error is and this error is not referred to in your paper either. Do you mind explaining what this is?
 }}
@@ -121,7 +121,7 @@ An object with S3 class \code{\link{cocktail}}.
 Maintainer: Yi Yang  <yiyang@umn.edu>}
 \references{
 Yang, Y. and Zou, H. (2012), 
-"A Cocktail Algorithm for Solving The Elastic Net Penalized Cox's Regression in High Dimensions", \emph{Statistics and Its Interface.}\cr
+"A Cocktail Algorithm for Solving The Elastic Net Penalized Cox's Regression in High Dimensions", \emph{Statistics and Its Interface,} 6:2, 167-173.\cr
 \url{http://code.google.com/p/fastcox/}\cr
 }
 \seealso{\code{plot.cocktail}}

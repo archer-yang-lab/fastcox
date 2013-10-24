@@ -19,7 +19,7 @@ curves, as a function of the \code{lambda} values used. This function is modifie
 Maintainer: Yi Yang  <yiyang@umn.edu>}
 \references{
 Yang, Y. and Zou, H. (2012), 
-"A Cocktail Algorithm for Solving The Elastic Net Penalized Cox's Regression in High Dimensions", \emph{Statistics and Its Interface.}\cr
+"A Cocktail Algorithm for Solving The Elastic Net Penalized Cox's Regression in High Dimensions", \emph{Statistics and Its Interface,} 6:2, 167-173.\cr
 \url{http://code.google.com/p/fastcox/}\cr
 
 

@@ -24,7 +24,7 @@ A coefficient profile plot is produced.
 Maintainer: Yi Yang  <yiyang@umn.edu>}
 \references{
 Yang, Y. and Zou, H. (2012), 
-"A Cocktail Algorithm for Solving The Elastic Net Penalized Cox's Regression in High Dimensions", \emph{Statistics and Its Interface.}\cr
+"A Cocktail Algorithm for Solving The Elastic Net Penalized Cox's Regression in High Dimensions", \emph{Statistics and Its Interface,} 6:2, 167-173.\cr
 \url{http://code.google.com/p/fastcox/}\cr
 
 Friedman, J., Hastie, T. and Tibshirani, R. (2008)
