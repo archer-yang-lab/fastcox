@@ -118,17 +118,16 @@ An object with S3 class \code{\link{cocktail}}.
 }
 
 \author{Yi Yang and Hui Zou\cr
-Maintainer: Yi Yang  <yiyang@umn.edu>}
+Maintainer: Yi Yang  <yi.yang6@mcgill.ca>}
 \references{
-Yang, Y. and Zou, H. (2012), 
+Yang, Y. and Zou, H. (2013), 
 "A Cocktail Algorithm for Solving The Elastic Net Penalized Cox's Regression in High Dimensions", \emph{Statistics and Its Interface,} 6:2, 167-173.\cr
-\url{http://code.google.com/p/fastcox/}\cr
+\url{https://github.com/emeryyi/fastcox}\cr
 }
 \seealso{\code{plot.cocktail}}
 \examples{
 data(FHT)
 m1<-cocktail(x=FHT$x,y=FHT$y,d=FHT$status,alpha=0.5)
-predict(m1,newx=FHT$x[1:5,],s=c(0.01,0.005))
 predict(m1,type="nonzero")
 plot(m1)
 }

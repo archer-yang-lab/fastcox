@@ -1,6 +1,6 @@
-useDynLib("fastcox")
+useDynLib(fastcox, .registration = TRUE)
 
-import("Matrix”,”methods”)
+import("Matrix")
 
 export(cocktail,
 cv.cocktail,
@@ -12,8 +12,8 @@ S3method("plot","cv.cocktail")
 S3method("plot","cocktail")
 
 
- importFrom("grDevices", "gray.colors")
-     importFrom("graphics", "abline", "axis", "matplot", "points",
-     "segments", "text")
-     importFrom("methods", "new")
-     importFrom("stats", "approx", "predict", "weighted.mean")
+importFrom("grDevices", "gray.colors")
+importFrom("graphics", "abline", "axis", "matplot", "points",
+"segments", "text")
+importFrom("methods", "new")
+importFrom("stats", "approx", "predict", "weighted.mean")
